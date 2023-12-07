@@ -2,11 +2,49 @@
 <html>
 <head>
     <title>Job Board</title>
+    <style>
+        @media screen and (max-width: 600px) {
+    header {
+        padding: 15px !important;
+        font-size: 24px !important;
+    }
+
+    #job-listings {
+        align-items: stretch !important;
+    }
+
+    .job-listing {
+        width: 100% !important;
+        box-sizing: border-box !important;
+        padding: 20px !important;
+        margin: 15px 0 !important;
+    }
+
+    h1 {
+        font-size: 40px !important;
+    }
+
+    h2 {
+        font-size: 22px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .company, .location {
+        font-size: 16px !important;
+        margin: 10px 0 !important;
+    }
+
+    .apply-button {
+        padding: 15px 20px !important;
+        font-size: 18px !important;
+    }
+}
+    </style>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Job Board</h1>
+        <h1 id="mainheading">Job Board</h1>
     </header>
     <div id="job-listings">
         <div class="job-listing">
