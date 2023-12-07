@@ -66,6 +66,22 @@ h2 {
 }
 
 
+/*Mobile view */
 
+@media screen and (max-width: 600px) {
+    header {
+        padding: 10px;
+    }
+
+    #job-listings {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .job-listing {
+        width: 90%;
+        margin: 10px 0;
+    }
+}
 
 
